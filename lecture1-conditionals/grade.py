@@ -1,3 +1,4 @@
+#ej:1
 score = int(input("Score: "))
 
 if score >=90 and score <= 100:
@@ -11,7 +12,7 @@ elif score >= 60 and score < 70:
 else:
     print("Grade: F")
 
-
+#ej:2
 score = int(input("Score: "))
 
 if 90 <= score and score <= 100:
@@ -25,7 +26,7 @@ elif 60 <= score and score < 70:
 else:
     print("Grade: F")
 
-
+#ej:3
 score = int(input("Score: "))
 
 if 90 <= score <= 100:
@@ -40,6 +41,7 @@ else:
     print("Grade: F")
 
 
+#ej:4
 score = int(input("Score: "))
 
 if score >= 90:
@@ -53,7 +55,7 @@ elif score >= 60:
 else:
     print("Grade: F")
 
-
+#ej:5
 score = int(input("Score: "))
 
 if 90 <= score <= 100:
