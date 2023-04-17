@@ -1,49 +1,14 @@
-Estos son algunos enlaces a la biblioteca de python
 
-ejemplos de comentarios en python:
-
-""" Este es un cometario de varias lineas"""
-# Este es un comentario fijo
-
-*lecture-0
-# https://docs.python.org/es/3/library/index.html
-# https://docs.python.org/3/library/stdtypes.html#string-methods
-# https://docs.python.org/3/library/functions.html#round 
+# lecture-0
+* https://docs.python.org/es/3/library/index.html
+* https://docs.python.org/3/library/stdtypes.html#string-methods
+* https://docs.python.org/3/library/functions.html#round  
 
 functions : una función es como una acción o un verbo que te permite hacer algo en el programa, de funciones: algunas acciones o verbos muy básicos que la computadora ya sabrá cómo hacer por usted, que el idioma, que en realidad, sabrá cómo hacer por usted y tú, el ser humano, puedas usar esas funciones a voluntad para que la computadora haga esas cosas.
 
 arguments: un argumento es una entrada a una función que de alguna manera influye en su comportamiento.
 
-VISUAL STUDIO CODE FOR CS50
-
-para este curso de python se recomienda usar vs code, y usarlo en la nube a traves de la propia implementacion de CS50 sobre algo llamado github code spaces, que es una version alojada del mismo, para usar vscode CS50 vaya a "code.cs50.io" donde se le pedira que inicie sesion con su cuenta gratuita de github.com .
-
-Despues de algunos segundos o minutos sera redirigido a su llamado espacio de codigo, que es su propio espacio virtual en la nube. En algun lugar de los servidores de GitHub tendra acceso a su propio espacio de almacenamiento, realmente en su propio disco duro en la nube en el que puede crear archivos, ejecutar programas e incluso organizar todo en carpetas.
-
-Tambien tendra la capacidad de escribir codigo a traves de esa interfaz y mucho mas.
-Algunos comandos
-
-    ls: enumera todos los archivos en su carpeta actual
-
-    cp: le permite copiar un archivo de un lugar a otro
-
-    mv: le permite mover un archivo o realmente cambiarle el nombre de un nombre a otro
-
-    rm: para eliminar, lo que le permitira eliminar un archivo
-
-    mkdir: le permitira hacer un directorio, es decir una carpeta
-
-    cd: le permite cambiar directorios de una carpeta a otra
-
-    rmdir: le permitira eliminar un directorio
-
-    clear: borra esteticamente la ventana de su terminal
-
-    ctrl + l :limpia la terminal
-
-    cd folder/ prefija su aviso con un recordatorio rapido para que sepa que esta en la carpeta principal y no se confunda con otra carpeta que esta alli
-
-    ## lecture-1
+## lecture-1
 algunos simbolos para hacer preguntas matematicas en python son:
 
 * >
@@ -53,7 +18,7 @@ algunos simbolos para hacer preguntas matematicas en python son:
 * ==
 * !=
 
-palabras clave en python:
+## palabras clave en python:
 
 * if: es como decir que la pregunta es verdadera
 
@@ -70,7 +35,7 @@ palabras clave en python:
 * match: sirve para simplificar comparaciones donde tenemos que escribir muchos elif
 
 
-simbolos matematicos:
+## simbolos matematicos:
 
 * suma (+)
 * resta (-)
@@ -79,7 +44,7 @@ simbolos matematicos:
 * operador de modulo (%)
 
 ## lecture-2
-palabras clave:
+* palabras clave:
 
 * while: hace que se ejecute un bloque de código repetidamente mientras se cumpla una condición determinada
 
@@ -91,20 +56,113 @@ palabras clave:
 
 * dict: es un tipo mapa que asocia claves a valores
 
-## Lecture-3
+# Lecture-3
 
+# Algunos errores:
 * SyntaxError: un error de sintaxis es un problema al que debe volver a su codigo
-y corregirlo usted mismo. es un problema de lenguaje es decir porque algo escribio mal 
-## Debu
+y corregirlo usted mismo. es un problema de lenguaje es decir porque algo escribio mal
+
+* ValueError: se levanta cuando a una función se le ingresa un argumento que tiene el tipo que se solicita, pero tiene un valor inapropiado
+
+* NameError: ocurre cuando el intérprete CPython no reconoce un nombre de objeto local o global que se haya proporcionado en el código fuente de Python
+
+## palabras clave:
+* try: es el bloque con las sentencias que quieres ejecutar
+
+* except: se ejecutará cuando el bloque try falle debido a un error
+
+* else: es una función condicional y, por lo tanto, una estructura de control fundamental
+
+* pass:  es un marcador de posición que evita que el programa emita un mensaje de error
+
+* raise: se usa para indicar que se ha producido un error o una condición excepcional
+
+## Debugging
+
+# palabras clave:
+* breakpoints: en el proceso de debugging son puntos o marca donde detenemos el código para saber y entender su funcionamiento. 
 
 ## Lecture-4-libraries
 
-* Modules:¿cuales son algunos modulos o bibliotecas con los que viene python?, python viene literalmente con una biblioteca aletoria, quiere decir que cuando intalas el interprete de python en tu mac o ps o en algun lugar de la nube, no solo obtienes python,tambien obtienes un montón de modulos. los modulos le brindan funciones a las que no tienes acceso de forma preterminada como imprimir e ingresar, pero a veces las funciones están escondidas en estos modulos
+## Estos son algunos enlaces a la biblioteca de python
+* https://docs.python.org/3/library/random.html
+* https://docs.python.org/3/library/statistics.html
+* https://docs.python.org/37library/sys.html
+* https://pypi.org/project/cowsay
+* https://pypi.org/project/requests
+* https://docs.python.org/3/library/json.html
+## palabras clave:
+* modules:¿cuales son algunos modulos o bibliotecas con los que viene python?, python viene literalmente con una biblioteca aletoria, quiere decir que cuando intalas el interprete de python en tu mac o ps o en algun lugar de la nube, no solo obtienes python,tambien obtienes un montón de modulos. los modulos le brindan funciones a las que no tienes acceso de forma preterminada como imprimir e ingresar, pero a veces las funciones están escondidas en estos modulos
 
-# https://docs.python.org/3/lirary/random.html 
+* random: genera números enteros aleatorios comprendidos entre a y b separados entre sí con un salto
 
+* from import: le indicamos a Python específicamente cuáles objetos queremos importar de un módulo en particular
 
+* statistics: Ofrece funciones para el cálculo de valores estadísticos en el campo de los números reales
 
+* sys: Este módulo provee acceso a algunas variables usadas o mantenidas por el intérprete y a funciones que interactúan fuertemente con el intérprete
 
+* sys.argv: devuelve una lista de cadenas de caracteres, correspondientes a cada uno de los argumentos escritos al invocar el programa
+
+* sys.exit: perimte terminar la ejecución del script devolviendo un valor
+
+* slices: operación por medio de la cual se extraen elementos de una secuencia, tal como una lista o una cadena de caracteres
+
+* packages: espacios de nombre que contienen múltiples paquetes y módulos múltiples
+
+* cowsay: es un comando que imprime una vaca que dice algo
+
+* pip: es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes de software escritos en Python y descargarlos a nuestra computadora con la finalidad de integrarlos a nuestros desarrollos realizado en python
+
+* APIs: La interfaz del programador de aplicaciones
+
+* requests: es una librería Python que facilita enormemente el trabajo con peticiones HTTP
+
+* json: formato de archivo usado para representar y almacenar información
+# Style 
+
+## Estos son algunos enlaces a la biblioteca de python
+
+* https://peps.python.org/pep-0008/
+* https://pycodestyle.pycqa.org/en/latest/
+* https://black.readthedocs.io/en/stable/
+
+## palabras clave
+* pep 8: guía de estilos de Python
+
+* pylint: busca errores en el código de Python y promueve patrones correctos de codificación en Python
+
+* pycodestyle: módulo de Python que verifica el código de Python con las recomendaciones de PEP 8
+
+* black: es una herramienta que le permite identificar errores y formatear su código Python al mismo tiempo
+
+# lecture-5
+
+## Algunos errores
+
+* AssertionError: errores que pueden levantarse al cumplirse una condición
+
+## Estos son algunos enlaces a la biblioteca de python
+
+* https://docs.pytest.org/en/7.3.x/
+
+## palabras clave
+
+* assert: es una instruccion de Python que te permite definir condiciones que deban cumplirse siempre
+
+* pytest:marco de trabajo que permite realizar pruebas unitarias para un software en python usando pip install pytest
+
+* packages: son una forma de estructurar el espacio de nombres de modulos de python
+
+# lecture-6
+## estos son algunos enlaces a la biblioteca de python
+
+* https://docs.python.org/3/library/functions.html#open 
+
+## palabras clave
+
+* list:
+* open:
+* with:
 
 
