@@ -9,7 +9,7 @@ print(students[2])
 students = ["Hermione", "Harry", "Ron"]
 
 for student in students:
-    print(students)
+    print(student)
 
 #ejemplo3
 students = ["Hermione", "Harry", "Ron"]

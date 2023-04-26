@@ -158,12 +158,69 @@ y corregirlo usted mismo. es un problema de lenguaje es decir porque algo escrib
 ## estos son algunos enlaces a la biblioteca de python
 
 * https://docs.python.org/3/library/functions.html#open 
+* https://docs.python.org/3/library/functions.html#sorted
+* https://docs.python.org/3/library/csv.html 
 
 ## palabras clave
 
-* list:
-* open:
-* with:
+* list: son un tipo de contenedor, compuesto, que se usan para almacenar conjuntos de elemntos relacionados del mismo tipo o tipos
 
+* open: una función incorporada (built-in) que abre un archivo y permite que tu programa tenga acceso a él
 
-# cahipum-
+* with: with: se usa para ajustar la ejecución de un bloque con métodos definidos por un administrador de contexto
+
+* csv: son un tipo de documento de texto sencillo que se usa para representar datos en forma de tabla, donde las columnas se separan por comas o punto y las filas por saltos de linea
+
+# lecture-7
+## palabras clave:
+* expresiones regulares: re.search(pattern, string, flags=0)
+regexes: cadena de texto genérica, que se usa a modo de patrón, y sirve para localizar texto dentro de otro texto mayor
+
+re: expresion regular 
+
+^ coicide con la estrella de la cadena
+
+. cualquier personaje excepto una nueva linea
+
+* 0 o más repeticiones
+
++ 1 o más repeticiones
+
+? 0 o 1 retetición
+
+{m} m repeticiones
+
+{m,n} repeticiones M-N
+
+$ coincide con el final de la cadena justo antes de la nueva linea al final de la 
+cadena 
+
+[] conjunto de caracteres
+
+[^] complementando el conjunto
+
+/d digito decimal
+
+/D no es un codigo decimal
+
+/s caracteres de espacios en blanco
+
+/S no son caracteres de espacios en blanco
+
+/w carácter de palabras, asi como numeros y el guión bajo 
+
+/W ni un personaje de palabra
+
+A|B cualquiera a o B
+
+(...) Un grupo
+
+(?:...) versión sin captura
+
+re.IGNORECASE: fuerza que la función a la que se aplique realice una búsqueda insensible a mayúsculas y minúsculas
+
+re.MULTILINE: modifica el comportamiento de ^ y `<letra para que coincidan con el comienzo y final de cada línea de la cadena, en lugar de coincidir con el comienzo y final de la cadena entera
+
+re.DOTALL: fuerza que el símbolo . represente cualquier carácter, incluido el símbolo de nueva línea \n
+
+:= asignar un valor a una variable y que se evalúe como expresión
